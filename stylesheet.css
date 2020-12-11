@@ -111,6 +111,11 @@ float:left;
   background-size:cover;
   background-position:center center;
 }
+.paragraph{
+color:#000;
+font-size: large;
+font-weight:bold;	
+}
 .About{
    display: flex;
    /*position:absolute;*/
@@ -316,14 +321,14 @@ font-size: ;
  form h5{
    padding: 0;
    margin: 0;
-   color: grey;
+   color: #808080 ;
  }
  form input{
    padding:0.6rem;
    width: 27rem;
    border: none;
    background-color:rgba(136, 133, 133, 0.3);
-   color:white;
+   color:#ffffff;
    border: none;
    outline:none;
  }
@@ -333,7 +338,7 @@ font-size: ;
    width: 27rem;
    border: none;
    background-color:rgba(136, 133, 133, 0.3);
-   color:white;
+   color:#ffffff;
    border: none;
    outline:none;
   }
@@ -356,9 +361,10 @@ font-size: ;
  
  
   /* media queries */
-    @media (max-width: 968px){
+    @media screen and (max-width: 968px){
  
-      #fancy-form .form-sections{
+      #fancy-form .form-sections
+	    .services{
         display: block;
         width: 100%;
         text-align: left;
@@ -374,7 +380,7 @@ font-size: ;
           }
  
        .form-sections .Form-right
-	.box-1 .box2 .box2{
+	{
          margin-top: 2rem;
          margin-bottom: 2rem;
           }
@@ -388,6 +394,9 @@ font-size: ;
           text-decoration: none;
           color: rgb(187, 182, 182);
               }
+	    .box-1 .box2 .box2{
+	     flex-direction: column;
+	    }
            }
 
 

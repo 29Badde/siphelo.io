@@ -521,8 +521,7 @@ font-size: ;
  footer p:nth-child(2){
   width: 90%;
  }
- #fancy-form .form-sections
-	    .services{
+ #fancy-form .form-sections{
         display: block;
         width: 100%;
         text-align: left;
